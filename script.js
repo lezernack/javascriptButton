@@ -1,6 +1,8 @@
-let clicks = 0;
+document.getElementById("lRBtn").addEventListener("click", clicker);
 
-function click() {
-  clicks += 1;
-  document.getElementById("clicks").innerHTML = clicks;
+let i = 0;
+
+function clicker() {
+  document.getElementById("clicks").innerHTML = i;
+  i++;
 }

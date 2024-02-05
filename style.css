@@ -22,7 +22,7 @@ p {
   font-weight: bold;
 }
 
-.largeRedButton {
+#lRBtn {
   background-color: red;
   color: white;
   text-transform: uppercase;
